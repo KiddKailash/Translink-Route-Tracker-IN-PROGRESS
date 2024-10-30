@@ -66,7 +66,9 @@ The South East Queensland Route Planner is a command-line application that allow
 4. {...}
 
 **What is your start and end stop on the route? (Start Num. - Stop Num.)** 1 - 2
+
 **What date will you take the route? (YYYY-MM-DD)** 2024-10-30
+
 **What time will you leave? (HH:mm)** 08:30
 
 | Route Short Name | Route Long Name    | Service ID | Heading Sign | Scheduled Arrival Time | Live Arrival Time | Live Position    | Estimated Travel Time |
