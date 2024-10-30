@@ -64,6 +64,7 @@ The South East Queensland Route Planner is a command-line application that allow
 2. King George Square Station
 3. Boggo Road station, platform 5
 4. {...}
+
 **What is your start and end stop on the route? (Start Num. - Stop Num.)** 1 - 2
 **What date will you take the route? (YYYY-MM-DD)** 2024-10-30
 **What time will you leave? (HH:mm)** 08:30
@@ -73,6 +74,7 @@ The South East Queensland Route Planner is a command-line application that allow
 | 66               | CityGlider         | 12345      | Outbound     | 08:45 AM               | 08:47 AM         | (27.4705, 153.025) | 12 min                |
 
 **Would you like to search again? (y/n)** N
+
 **Thanks for using the route tracker!**
 
 
