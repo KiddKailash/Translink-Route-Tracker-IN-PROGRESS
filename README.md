@@ -14,6 +14,34 @@ The South East Queensland Route Planner is a command-line application that allow
 
 ---
 
+## Example User Interaction
+**Welcome to the South East Queensland Route Planner!**
+**What Bus Route would you like to take?** 66
+1. Roma Street Station
+2. King George Square Station
+3. Boggo Road station, platform 5
+4. {...}
+
+**What is your start and end stop on the route? (Start Num. - Stop Num.)** 1 - 2
+
+**What date will you take the route? (YYYY-MM-DD)** 2024-10-30
+
+**What time will you leave? (HH:mm)** 08:30
+
+| Route Short Name | Route Long Name    | Service ID | Heading Sign | Scheduled Arrival Time | Live Arrival Time | Live Position    | Estimated Travel Time |
+|------------------|--------------------|------------|--------------|------------------------|------------------|------------------|-----------------------|
+| 66               | CityGlider         | 12345      | Outbound     | 08:45 AM               | 08:47 AM         | (27.4705, 153.025) | 12 min                |
+
+**Would you like to search again? (y/n)** N
+
+**Thanks for using the route tracker!**
+
+
+## Future Improvements
+- Add a graphical user interface (GUI) for easier interaction.
+- Integrate map-based stop selection.
+- Expand support for other transportation modes like trains and ferries.
+
 ## File Structure
 - **`data-loading.js`**  
   Handles loading static GTFS data from CSV files and fetching live trip updates from the server.
@@ -46,7 +74,8 @@ The South East Queensland Route Planner is a command-line application that allow
     ```
 
 ## Usage
-1. Start the program:
+1. Select and run the appropriate proxy-server (found in proxyserver_v3/)
+2. Start the program:
     ```bash
     node translink-parser.js
     ```
@@ -56,34 +85,6 @@ The South East Queensland Route Planner is a command-line application that allow
     - Specify the travel date and time.
     - View viable trips, including real-time arrival estimates.
     - Search for more trips or exit the program when done.
-
-## Example User Interaction
-**Welcome to the South East Queensland Route Planner!**
-**What Bus Route would you like to take?** 66
-1. Roma Street Station
-2. King George Square Station
-3. Boggo Road station, platform 5
-4. {...}
-
-**What is your start and end stop on the route? (Start Num. - Stop Num.)** 1 - 2
-
-**What date will you take the route? (YYYY-MM-DD)** 2024-10-30
-
-**What time will you leave? (HH:mm)** 08:30
-
-| Route Short Name | Route Long Name    | Service ID | Heading Sign | Scheduled Arrival Time | Live Arrival Time | Live Position    | Estimated Travel Time |
-|------------------|--------------------|------------|--------------|------------------------|------------------|------------------|-----------------------|
-| 66               | CityGlider         | 12345      | Outbound     | 08:45 AM               | 08:47 AM         | (27.4705, 153.025) | 12 min                |
-
-**Would you like to search again? (y/n)** N
-
-**Thanks for using the route tracker!**
-
-
-## Future Improvements
-- Add a graphical user interface (GUI) for easier interaction.
-- Integrate map-based stop selection.
-- Expand support for other transportation modes like trains and ferries.
 
 ## References 
 - **GTFS Data** provided by TransLink.
