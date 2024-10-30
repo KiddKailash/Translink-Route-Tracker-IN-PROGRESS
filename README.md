@@ -57,7 +57,7 @@ The South East Queensland Route Planner is a command-line application that allow
     - View viable trips, including real-time arrival estimates.
     - Search for more trips or exit the program when done.
 
-## Example
+## Example User Interaction
 **Welcome to the South East Queensland Route Planner!**
 **What Bus Route would you like to take?** 66
 1. Roma Street Station
@@ -71,6 +71,7 @@ The South East Queensland Route Planner is a command-line application that allow
 | Route Short Name | Route Long Name    | Service ID | Heading Sign | Scheduled Arrival Time | Live Arrival Time | Live Position    | Estimated Travel Time |
 |------------------|--------------------|------------|--------------|------------------------|------------------|------------------|-----------------------|
 | 66               | CityGlider         | 12345      | Outbound     | 08:45 AM               | 08:47 AM         | (27.4705, 153.025) | 12 min                |
+
 **Would you like to search again? (y/n)** N
 **Thanks for using the route tracker!**
 
